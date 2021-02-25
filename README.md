@@ -1,4 +1,4 @@
-﻿# The README for attack-free policy distillation
+﻿# Importance Adaptive Policy Distillation (IAPD)
 
 ### Train the teacher policy:
 Download the code for RAINBOW from github 
