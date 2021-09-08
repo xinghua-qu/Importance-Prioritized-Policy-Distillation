@@ -1,4 +1,4 @@
-﻿# Importance Adaptive Policy Distillation (IAPD)
+﻿# Importance Prioritized Policy Distillation (IPPD)
 
 ### Train the teacher policy:
 Download the code for RAINBOW from github 
@@ -11,13 +11,13 @@ The ohyperparameters for training teacher policy can be found in Appendix in the
 Then run code to collect the dataset:
 	python data_collection.py
 ### Policy distillation training:
-	## AFI-KL
+	## IP-KL
 	python PD_adaptive_importance_KL.py —game bank_heist
 
-	## AFI-CE
+	## IP-CE
 	python PD_adaptive_importance_CrossEntropy.py —game bank_heist
 
-	## AFI base policy conpression
+	## IP base policy conpression
 	python PD_adaptive_importance_compression.py —game bank_heist
 
 	## The detail of parameter setting for policy distillation is provided in Appendix D in our paper
